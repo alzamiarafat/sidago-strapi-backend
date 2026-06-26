@@ -978,6 +978,7 @@ export interface ApiInfrastructureInfrastructure
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
+    cta: Schema.Attribute.Component<'shared.cta-item', true>;
     hero: Schema.Attribute.Component<'shared.hero', false>;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
     localizations: Schema.Attribute.Relation<
@@ -992,6 +993,7 @@ export interface ApiInfrastructureInfrastructure
     profilesDescription: Schema.Attribute.Text;
     profilesTitle: Schema.Attribute.String;
     publishedAt: Schema.Attribute.DateTime;
+    statistics: Schema.Attribute.Component<'shared.statistic-item', true>;
     support: Schema.Attribute.Component<
       'shared.infrastructure-support-item',
       true
