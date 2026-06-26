@@ -1,0 +1,21 @@
+{
+  "options": {},
+  "collectionName": "components_shared_legal_heading_h2s",
+  "info": {
+    "displayName": "Legal Heading H2",
+    "description": "Section heading with anchor id"
+  },
+  "attributes": {
+    "anchorId": {
+      "type": "string"
+    },
+    "text": {
+      "type": "string",
+      "required": true
+    },
+    "sortOrder": {
+      "type": "integer",
+      "default": 0
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "options": {},
+  "collectionName": "components_shared_service_landing_report_contents",
+  "info": {
+    "displayName": "Service Landing Report Contents"
+  },
+  "attributes": {
+    "tableOfContents": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.service-landing-toc-item"
+    },
+    "mainSectionId": {
+      "type": "string"
+    },
+    "mainSectionTitle": {
+      "type": "string"
+    },
+    "mainSectionParagraphs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.service-landing-report-paragraph"
+    },
+    "mainSectionBlocks": {
+      "type": "dynamiczone",
+      "components": [
+        "shared.service-landing-report-paragraph",
+        "shared.service-landing-report-image"
+      ]
+    },
+    "mainSectionImage": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.service-landing-report-image"
+    },
+    "ctaSectionId": {
+      "type": "string"
+    },
+    "ctaSectionTitle": {
+      "type": "string"
+    },
+    "ctaSectionLabel": {
+      "type": "string"
+    },
+    "ctaSectionHref": {
+      "type": "string"
+    },
+    "ctaSectionSrText": {
+      "type": "string"
+    },
+    "disclaimers": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.service-landing-disclaimer"
+    }
+  }
+}

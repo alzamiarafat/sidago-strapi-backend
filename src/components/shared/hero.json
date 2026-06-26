@@ -1,0 +1,51 @@
+{
+  "collectionName": "components_shared_heroes",
+  "info": {
+    "displayName": "Hero",
+    "description": "Homepage hero section configuration"
+  },
+  "options": {},
+  "attributes": {
+    "titles": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.hero-title"
+    },
+    "subtitle": {
+      "type": "text",
+      "required": true
+    },
+    "videoSrc": {
+      "type": "string"
+    },
+    "imageSrc": {
+      "type": "string"
+    },
+    "useVideo": {
+      "type": "boolean",
+      "default": true
+    },
+    "videoSectionClass": {
+      "type": "string"
+    },
+    "videoClass": {
+      "type": "string"
+    },
+    "fontWeight": {
+      "type": "integer",
+      "default": 400
+    },
+    "lighterTheme": {
+      "type": "boolean",
+      "default": false
+    },
+    "loop": {
+      "type": "boolean",
+      "default": true
+    },
+    "lighterBgColor": {
+      "type": "string",
+      "default": "bg-[#f0f1f1]"
+    }
+  }
+}

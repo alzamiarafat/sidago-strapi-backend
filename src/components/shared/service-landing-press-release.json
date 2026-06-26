@@ -1,0 +1,20 @@
+{
+  "options": {},
+  "collectionName": "components_shared_service_landing_press_releases",
+  "info": {
+    "displayName": "Service Landing Press Release"
+  },
+  "attributes": {
+    "authorUseBrandLogo": {
+      "type": "boolean",
+      "default": false
+    },
+    "blocks": {
+      "type": "dynamiczone",
+      "components": [
+        "shared.service-landing-report-paragraph",
+        "shared.service-landing-report-image"
+      ]
+    }
+  }
+}

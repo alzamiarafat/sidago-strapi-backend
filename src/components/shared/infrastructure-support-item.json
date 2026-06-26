@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_shared_infrastructure_support_items",
+  "info": {
+    "displayName": "Infrastructure Support Item",
+    "description": "Infrastructure support accordion item"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "expandedClassName": {
+      "type": "string",
+      "default": "bg-green-light"
+    },
+    "sortOrder": {
+      "type": "integer",
+      "default": 0
+    }
+  }
+}

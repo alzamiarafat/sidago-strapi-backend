@@ -1,0 +1,47 @@
+{
+  "collectionName": "components_shared_infrastructure_profile_items",
+  "info": {
+    "displayName": "Infrastructure Profile Item",
+    "description": "Infrastructure profile card and partnership content"
+  },
+  "options": {},
+  "attributes": {
+    "eyebrow": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "cta": {
+      "type": "string",
+      "required": true
+    },
+    "href": {
+      "type": "string",
+      "required": true
+    },
+    "visualType": {
+      "type": "enumeration",
+      "enum": [
+        "dashboard",
+        "brief",
+        "partnership"
+      ],
+      "default": "dashboard",
+      "required": true
+    },
+    "srText": {
+      "type": "string"
+    },
+    "sortOrder": {
+      "type": "integer",
+      "default": 0
+    }
+  }
+}

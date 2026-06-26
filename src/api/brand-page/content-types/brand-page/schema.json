@@ -1,0 +1,113 @@
+{
+  "kind": "singleType",
+  "collectionName": "brand_pages",
+  "info": {
+    "singularName": "brand-page",
+    "pluralName": "brand-pages",
+    "displayName": "Brand Page",
+    "description": "Brand page CMS content"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "introTitleBefore": {
+      "type": "string"
+    },
+    "introTitleHighlight": {
+      "type": "string"
+    },
+    "introDescription": {
+      "type": "text"
+    },
+    "introImageSrc": {
+      "type": "string"
+    },
+    "introImageAlt": {
+      "type": "string"
+    },
+    "harnessingTitleHighlight": {
+      "type": "string"
+    },
+    "harnessingTitleAfter": {
+      "type": "string"
+    },
+    "harnessingBody": {
+      "type": "text"
+    },
+    "harnessingImages": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.brand-image"
+    },
+    "harnessingDownloadHref": {
+      "type": "string"
+    },
+    "harnessingDownloadSrLabel": {
+      "type": "string"
+    },
+    "harnessingDownloadLabel": {
+      "type": "string"
+    },
+    "logoEyebrow": {
+      "type": "string"
+    },
+    "logoDescription": {
+      "type": "text"
+    },
+    "logoSlides": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.brand-logo-slide"
+    },
+    "logoDownloadHref": {
+      "type": "string"
+    },
+    "logoDownloadSrLabel": {
+      "type": "string"
+    },
+    "logoDownloadLabel": {
+      "type": "string"
+    },
+    "colorIntroTitle": {
+      "type": "string"
+    },
+    "mediaEyebrow": {
+      "type": "string"
+    },
+    "mediaDescription": {
+      "type": "text"
+    },
+    "mediaHeadshots": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.brand-image"
+    },
+    "mediaBackdrops": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.brand-image"
+    },
+    "mediaHeadshotsDownloadHref": {
+      "type": "string"
+    },
+    "mediaHeadshotsDownloadSrLabel": {
+      "type": "string"
+    },
+    "mediaHeadshotsDownloadLabel": {
+      "type": "string"
+    },
+    "mediaBackdropsDownloadHref": {
+      "type": "string"
+    },
+    "mediaBackdropsDownloadSrLabel": {
+      "type": "string"
+    },
+    "mediaBackdropsDownloadLabel": {
+      "type": "string"
+    },
+    "subBrandsEyebrow": {
+      "type": "string"
+    }
+  }
+}

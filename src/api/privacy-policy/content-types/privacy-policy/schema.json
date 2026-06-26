@@ -1,0 +1,37 @@
+{
+  "kind": "singleType",
+  "collectionName": "privacy_policies",
+  "info": {
+    "singularName": "privacy-policy",
+    "pluralName": "privacy-policies",
+    "displayName": "Privacy Policy",
+    "description": "Privacy policy CMS content"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "lastUpdated": {
+      "type": "string"
+    },
+    "activePolicy": {
+      "type": "string",
+      "default": "privacy"
+    },
+    "blocks": {
+      "type": "dynamiczone",
+      "components": [
+        "shared.legal-heading-h2",
+        "shared.legal-heading-h3",
+        "shared.legal-paragraph",
+        "shared.legal-bullet-list",
+        "shared.legal-link-paragraph",
+        "shared.legal-contact-box",
+        "shared.legal-divider"
+      ]
+    }
+  }
+}

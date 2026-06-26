@@ -1,0 +1,42 @@
+{
+  "collectionName": "components_shared_company_executive_members",
+  "info": {
+    "displayName": "Company Executive Member",
+    "description": "Executive team member for the company page carousel"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "role": {
+      "type": "string",
+      "required": true
+    },
+    "imageSrc": {
+      "type": "string",
+      "required": true
+    },
+    "imageWidth": {
+      "type": "integer",
+      "default": 775
+    },
+    "imageHeight": {
+      "type": "integer",
+      "default": 1152
+    },
+    "bio": {
+      "type": "json"
+    },
+    "socialLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.company-executive-social-link"
+    },
+    "sortOrder": {
+      "type": "integer",
+      "default": 0
+    }
+  }
+}

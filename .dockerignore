@@ -1,0 +1,12 @@
+node_modules
+.cache
+.strapi
+.tmp
+build
+yarn.lock
+npm-debug.log*
+.DS_Store
+public/uploads/*
+!public/uploads/.gitkeep
+.env
+.env.*

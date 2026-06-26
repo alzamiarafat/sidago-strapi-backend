@@ -1,0 +1,33 @@
+{
+  "options": {},
+  "collectionName": "components_shared_service_landing_inline_parts",
+  "info": {
+    "displayName": "Service Landing Inline Part"
+  },
+  "attributes": {
+    "partType": {
+      "type": "enumeration",
+      "enum": [
+        "text",
+        "strong",
+        "link"
+      ],
+      "default": "text"
+    },
+    "value": {
+      "type": "text",
+      "required": true
+    },
+    "href": {
+      "type": "string"
+    },
+    "strong": {
+      "type": "boolean",
+      "default": false
+    },
+    "sortOrder": {
+      "type": "integer",
+      "default": 0
+    }
+  }
+}

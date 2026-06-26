@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_shared_service_groups",
+  "info": {
+    "displayName": "Service Group",
+    "description": "Services page group"
+  },
+  "options": {},
+  "attributes": {
+    "groupId": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "href": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "paragraphs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.service-paragraph"
+    },
+    "children": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.service-item"
+    },
+    "sortOrder": {
+      "type": "integer",
+      "default": 0
+    }
+  }
+}

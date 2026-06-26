@@ -1,0 +1,58 @@
+{
+  "kind": "collectionType",
+  "collectionName": "service_landing_pages",
+  "info": {
+    "singularName": "service-landing-page",
+    "pluralName": "service-landing-pages",
+    "displayName": "Service Landing Page",
+    "description": "Landing pages for key service offerings"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "slug": {
+      "type": "uid",
+      "targetField": "title",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.service-landing-hero"
+    },
+    "atAGlance": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.service-landing-at-a-glance"
+    },
+    "reportContents": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.service-landing-report-contents"
+    },
+    "pressRelease": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.service-landing-press-release"
+    },
+    "subscribe": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.service-landing-subscribe"
+    },
+    "similarInsights": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.service-landing-similar-insights"
+    },
+    "includePerformanceCarousel": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

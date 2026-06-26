@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_shared_footers",
+  "info": {
+    "displayName": "Footer",
+    "description": "Global footer content"
+  },
+  "options": {},
+  "attributes": {
+    "navLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.footer-link"
+    },
+    "socialLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.footer-social-link"
+    },
+    "legalBlocks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.footer-legal-block"
+    },
+    "policyLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.footer-link"
+    }
+  }
+}

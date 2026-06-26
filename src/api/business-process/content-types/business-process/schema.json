@@ -1,0 +1,42 @@
+{
+  "kind": "singleType",
+  "collectionName": "business_processes",
+  "info": {
+    "singularName": "business-process",
+    "pluralName": "business-processes",
+    "displayName": "Business Process",
+    "description": "Business process outsourcing page CMS content"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.hero"
+    },
+    "statistics": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.statistic-item"
+    },
+    "partnerBenefit": {
+      "type": "json",
+      "required": true
+    },
+    "processes": {
+      "type": "json",
+      "required": true
+    },
+    "solutions": {
+      "type": "json",
+      "required": true
+    },
+    "workOverview": {
+      "type": "json",
+      "required": true
+    }
+  }
+}

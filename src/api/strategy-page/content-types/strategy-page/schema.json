@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "strategy_pages",
+  "info": {
+    "singularName": "strategy-page",
+    "pluralName": "strategy-pages",
+    "displayName": "Strategy Page",
+    "description": "Strategy list and detail content"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "menuGroups": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.service-group"
+    }
+  }
+}

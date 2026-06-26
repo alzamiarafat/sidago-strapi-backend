@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_shared_service_sub_items",
+  "info": {
+    "displayName": "Service Sub Item",
+    "description": "Nested service list item"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "href": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "paragraphs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.service-paragraph"
+    },
+    "sortOrder": {
+      "type": "integer",
+      "default": 0
+    }
+  }
+}

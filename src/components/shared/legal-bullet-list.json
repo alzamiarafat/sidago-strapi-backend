@@ -1,0 +1,19 @@
+{
+  "options": {},
+  "collectionName": "components_shared_legal_bullet_lists",
+  "info": {
+    "displayName": "Legal Bullet List",
+    "description": "Policy bullet list"
+  },
+  "attributes": {
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.legal-list-item"
+    },
+    "sortOrder": {
+      "type": "integer",
+      "default": 0
+    }
+  }
+}

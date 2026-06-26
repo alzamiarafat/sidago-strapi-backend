@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_shared_careers_values_items",
+  "info": {
+    "displayName": "Careers Values Item",
+    "description": "Careers values flip-card item"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "iconType": {
+      "type": "enumeration",
+      "enum": [
+        "ambitious",
+        "collaborative",
+        "entrepreneurial",
+        "meritocratic"
+      ],
+      "default": "ambitious"
+    },
+    "bullets": {
+      "type": "json",
+      "required": true
+    },
+    "sortOrder": {
+      "type": "integer",
+      "default": 0
+    }
+  }
+}

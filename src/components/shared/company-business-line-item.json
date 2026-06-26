@@ -1,0 +1,46 @@
+{
+  "collectionName": "components_shared_company_business_line_items",
+  "info": {
+    "displayName": "Company Business Line Item",
+    "description": "Business line card for the company page"
+  },
+  "options": {},
+  "attributes": {
+    "lineId": {
+      "type": "string",
+      "required": true
+    },
+    "srOnly": {
+      "type": "string"
+    },
+    "href": {
+      "type": "string",
+      "required": true
+    },
+    "colSpan": {
+      "type": "string",
+      "required": true
+    },
+    "cardClassName": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "decoration": {
+      "type": "enumeration",
+      "enum": ["algorithmic", "otc", "none"],
+      "default": "none"
+    },
+    "sortOrder": {
+      "type": "integer",
+      "default": 0
+    }
+  }
+}

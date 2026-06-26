@@ -1,0 +1,45 @@
+{
+  "collectionName": "components_shared_careers_testimonial_items",
+  "info": {
+    "displayName": "Careers Testimonial Item",
+    "description": "Careers team testimonial carousel item"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "role": {
+      "type": "string",
+      "required": true
+    },
+    "quote": {
+      "type": "text",
+      "required": true
+    },
+    "titleParts": {
+      "type": "json",
+      "required": true
+    },
+    "imageSrc": {
+      "type": "string",
+      "required": true
+    },
+    "imageWidth": {
+      "type": "integer",
+      "default": 1100
+    },
+    "imageHeight": {
+      "type": "integer",
+      "default": 880
+    },
+    "imageAlt": {
+      "type": "string"
+    },
+    "sortOrder": {
+      "type": "integer",
+      "default": 0
+    }
+  }
+}

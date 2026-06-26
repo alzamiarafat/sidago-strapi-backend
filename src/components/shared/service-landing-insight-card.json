@@ -1,0 +1,39 @@
+{
+  "options": {},
+  "collectionName": "components_shared_service_landing_insight_cards",
+  "info": {
+    "displayName": "Service Landing Insight Card"
+  },
+  "attributes": {
+    "href": {
+      "type": "string",
+      "required": true
+    },
+    "srText": {
+      "type": "string"
+    },
+    "imageSrc": {
+      "type": "string"
+    },
+    "imageAlt": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "date": {
+      "type": "string"
+    },
+    "sortOrder": {
+      "type": "integer",
+      "default": 0
+    }
+  }
+}

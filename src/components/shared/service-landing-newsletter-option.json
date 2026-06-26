@@ -1,0 +1,21 @@
+{
+  "options": {},
+  "collectionName": "components_shared_service_landing_newsletter_options",
+  "info": {
+    "displayName": "Service Landing Newsletter Option"
+  },
+  "attributes": {
+    "optionId": {
+      "type": "string",
+      "required": true
+    },
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "sortOrder": {
+      "type": "integer",
+      "default": 0
+    }
+  }
+}

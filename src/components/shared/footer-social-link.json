@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_shared_footer_social_links",
+  "info": {
+    "displayName": "Footer Social Link",
+    "description": "Footer social link with icon type"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "href": {
+      "type": "string",
+      "required": true
+    },
+    "platform": {
+      "type": "enumeration",
+      "enum": ["youtube", "x", "linkedin"],
+      "required": true
+    },
+    "sortOrder": {
+      "type": "integer",
+      "default": 0
+    }
+  }
+}

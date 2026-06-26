@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_shared_market_ticker_items",
+  "info": {
+    "displayName": "Market Ticker Item",
+    "description": "Homepage market ticker item"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "price": {
+      "type": "string",
+      "required": true
+    },
+    "avg": {
+      "type": "string",
+      "required": true
+    },
+    "sortOrder": {
+      "type": "integer",
+      "default": 0
+    }
+  }
+}

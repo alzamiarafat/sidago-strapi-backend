@@ -1,0 +1,18 @@
+{
+  "options": {},
+  "collectionName": "components_shared_legal_paragraphs",
+  "info": {
+    "displayName": "Legal Paragraph",
+    "description": "Policy paragraph"
+  },
+  "attributes": {
+    "text": {
+      "type": "text",
+      "required": true
+    },
+    "sortOrder": {
+      "type": "integer",
+      "default": 0
+    }
+  }
+}

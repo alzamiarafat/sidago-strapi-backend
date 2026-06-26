@@ -1,0 +1,38 @@
+{
+  "options": {},
+  "collectionName": "components_shared_service_landing_report_images",
+  "info": {
+    "displayName": "Service Landing Report Image"
+  },
+  "attributes": {
+    "src": {
+      "type": "string",
+      "required": true
+    },
+    "alt": {
+      "type": "string"
+    },
+    "previewSrc": {
+      "type": "string"
+    },
+    "previewTitle": {
+      "type": "string"
+    },
+    "previewWeek": {
+      "type": "string"
+    },
+    "previewSource": {
+      "type": "string"
+    },
+    "previewTableOnly": {
+      "type": "boolean",
+      "default": false
+    },
+    "width": {
+      "type": "integer"
+    },
+    "height": {
+      "type": "integer"
+    }
+  }
+}

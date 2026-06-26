@@ -1,0 +1,32 @@
+{
+  "options": {},
+  "collectionName": "components_shared_events_speakers",
+  "info": {
+    "displayName": "Events Speaker",
+    "description": "Past event speaker"
+  },
+  "attributes": {
+    "externalId": {
+      "type": "string",
+      "required": true
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "company": {
+      "type": "string"
+    },
+    "imageAlt": {
+      "type": "string"
+    },
+    "imageSrc": {
+      "type": "string",
+      "required": true
+    },
+    "sortOrder": {
+      "type": "integer",
+      "default": 0
+    }
+  }
+}

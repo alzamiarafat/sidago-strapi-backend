@@ -1,0 +1,46 @@
+{
+  "kind": "singleType",
+  "collectionName": "insights",
+  "info": {
+    "singularName": "insight",
+    "pluralName": "insights",
+    "displayName": "Insight",
+    "description": "Insights page CMS content"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.hero"
+    },
+    "statistics": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.statistic-item"
+    },
+    "benefits": {
+      "type": "json",
+      "required": true
+    },
+    "featuredInsights": {
+      "type": "json",
+      "required": true
+    },
+    "coverageMatrix": {
+      "type": "json",
+      "required": true
+    },
+    "timeline": {
+      "type": "json",
+      "required": true
+    },
+    "discover": {
+      "type": "json",
+      "required": true
+    }
+  }
+}

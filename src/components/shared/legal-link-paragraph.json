@@ -1,0 +1,28 @@
+{
+  "options": {},
+  "collectionName": "components_shared_legal_link_paragraphs",
+  "info": {
+    "displayName": "Legal Link Paragraph",
+    "description": "Paragraph with inline link"
+  },
+  "attributes": {
+    "before": {
+      "type": "text"
+    },
+    "linkText": {
+      "type": "string",
+      "required": true
+    },
+    "href": {
+      "type": "string",
+      "required": true
+    },
+    "after": {
+      "type": "text"
+    },
+    "sortOrder": {
+      "type": "integer",
+      "default": 0
+    }
+  }
+}

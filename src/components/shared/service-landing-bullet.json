@@ -1,0 +1,22 @@
+{
+  "options": {},
+  "collectionName": "components_shared_service_landing_bullets",
+  "info": {
+    "displayName": "Service Landing Bullet"
+  },
+  "attributes": {
+    "before": {
+      "type": "text"
+    },
+    "emphasis": {
+      "type": "text"
+    },
+    "after": {
+      "type": "text"
+    },
+    "sortOrder": {
+      "type": "integer",
+      "default": 0
+    }
+  }
+}

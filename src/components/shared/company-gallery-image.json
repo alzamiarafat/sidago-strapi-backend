@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_shared_company_gallery_images",
+  "info": {
+    "displayName": "Company Gallery Image",
+    "description": "Gallery image for the company careers section"
+  },
+  "options": {},
+  "attributes": {
+    "src": {
+      "type": "string",
+      "required": true
+    },
+    "width": {
+      "type": "integer",
+      "default": 1152
+    },
+    "height": {
+      "type": "integer",
+      "default": 1182
+    },
+    "sortOrder": {
+      "type": "integer",
+      "default": 0
+    }
+  }
+}

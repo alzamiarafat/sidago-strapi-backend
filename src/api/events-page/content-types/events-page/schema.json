@@ -1,0 +1,164 @@
+{
+  "kind": "singleType",
+  "collectionName": "events_pages",
+  "info": {
+    "singularName": "events-page",
+    "pluralName": "events-pages",
+    "displayName": "Events Page",
+    "description": "Events page CMS content"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.hero"
+    },
+    "accentColor": {
+      "type": "string"
+    },
+    "backgroundClassName": {
+      "type": "string"
+    },
+    "videoClass": {
+      "type": "string"
+    },
+    "upcomingHeadingId": {
+      "type": "string"
+    },
+    "upcomingHeading": {
+      "type": "string"
+    },
+    "upcomingHeadingClassName": {
+      "type": "string"
+    },
+    "upcomingDividerClassName": {
+      "type": "string"
+    },
+    "upcomingDesktopColumns": {
+      "type": "integer",
+      "default": 3
+    },
+    "upcomingMobileInitialCount": {
+      "type": "integer",
+      "default": 3
+    },
+    "upcomingEvents": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.event-card"
+    },
+    "endpointIntroHeadingId": {
+      "type": "string"
+    },
+    "endpointIntroTitleBefore": {
+      "type": "string"
+    },
+    "endpointIntroTitleHighlight": {
+      "type": "string"
+    },
+    "endpointIntroDescription": {
+      "type": "text"
+    },
+    "endpointIntroLogoSrc": {
+      "type": "string"
+    },
+    "endpointIntroLogoAlt": {
+      "type": "string"
+    },
+    "endpointStats": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.events-stat-item"
+    },
+    "endpointShowcaseHeadingId": {
+      "type": "string"
+    },
+    "endpointShowcaseTitleBefore": {
+      "type": "string"
+    },
+    "endpointShowcaseTitleHighlight": {
+      "type": "string"
+    },
+    "endpointShowcaseEyebrow": {
+      "type": "string"
+    },
+    "endpointShowcaseSubtitle": {
+      "type": "text"
+    },
+    "endpointShowcasePanels": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.events-showcase-panel"
+    },
+    "endpointCoHostTitle": {
+      "type": "string"
+    },
+    "endpointCoHostDescription": {
+      "type": "text"
+    },
+    "endpointCoHostCtaLabel": {
+      "type": "string"
+    },
+    "endpointCoHostCtaHref": {
+      "type": "string"
+    },
+    "pastSpeakers": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.events-speaker"
+    },
+    "pastConversationsHeadingId": {
+      "type": "string"
+    },
+    "pastConversationsTitleHighlight": {
+      "type": "string"
+    },
+    "pastConversationsTitleAfter": {
+      "type": "string"
+    },
+    "pastConversationsDescription": {
+      "type": "text"
+    },
+    "pastConversationsMobileInitialCount": {
+      "type": "integer",
+      "default": 3
+    },
+    "pastConversationsItems": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.events-media-item"
+    },
+    "bootcampHeadingId": {
+      "type": "string"
+    },
+    "bootcampHeading": {
+      "type": "string"
+    },
+    "bootcampTitle": {
+      "type": "string"
+    },
+    "bootcampDescription": {
+      "type": "text"
+    },
+    "bootcampCtaLabel": {
+      "type": "string"
+    },
+    "bootcampCtaHref": {
+      "type": "string"
+    },
+    "bootcampImageSrc": {
+      "type": "string"
+    },
+    "bootcampImageAlt": {
+      "type": "string"
+    },
+    "cta": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.cta-item"
+    }
+  }
+}

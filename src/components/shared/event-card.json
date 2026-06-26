@@ -1,0 +1,57 @@
+{
+  "options": {},
+  "collectionName": "components_shared_event_cards",
+  "info": {
+    "displayName": "Event Card",
+    "description": "Upcoming event card"
+  },
+  "attributes": {
+    "externalId": {
+      "type": "string",
+      "required": true
+    },
+    "href": {
+      "type": "string",
+      "required": true
+    },
+    "srText": {
+      "type": "string"
+    },
+    "imageSrc": {
+      "type": "string",
+      "required": true
+    },
+    "imageAlt": {
+      "type": "string"
+    },
+    "role": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "dateStart": {
+      "type": "string"
+    },
+    "dateEnd": {
+      "type": "string"
+    },
+    "theme": {
+      "type": "enumeration",
+      "enum": [
+        "mid",
+        "dark",
+        "light"
+      ],
+      "default": "mid"
+    },
+    "sortOrder": {
+      "type": "integer",
+      "default": 0
+    }
+  }
+}

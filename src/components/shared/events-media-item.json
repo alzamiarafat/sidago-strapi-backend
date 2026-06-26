@@ -1,0 +1,39 @@
+{
+  "options": {},
+  "collectionName": "components_shared_events_media_items",
+  "info": {
+    "displayName": "Events Media Item",
+    "description": "Past conversation media item"
+  },
+  "attributes": {
+    "externalId": {
+      "type": "string",
+      "required": true
+    },
+    "href": {
+      "type": "string",
+      "required": true
+    },
+    "imageAlt": {
+      "type": "string"
+    },
+    "imageSrc": {
+      "type": "string",
+      "required": true
+    },
+    "category": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "date": {
+      "type": "string"
+    },
+    "sortOrder": {
+      "type": "integer",
+      "default": 0
+    }
+  }
+}

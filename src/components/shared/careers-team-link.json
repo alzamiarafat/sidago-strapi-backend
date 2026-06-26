@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_shared_careers_team_links",
+  "info": {
+    "displayName": "Careers Team Link",
+    "description": "CTA link for a careers team accordion item"
+  },
+  "options": {},
+  "attributes": {
+    "href": {
+      "type": "string",
+      "required": true
+    },
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "srText": {
+      "type": "string"
+    },
+    "sortOrder": {
+      "type": "integer",
+      "default": 0
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "options": {},
+  "collectionName": "components_shared_legal_hub_documents",
+  "info": {
+    "displayName": "Legal Hub Document",
+    "description": "Legal hub card"
+  },
+  "attributes": {
+    "href": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "blurb": {
+      "type": "text"
+    },
+    "sortOrder": {
+      "type": "integer",
+      "default": 0
+    }
+  }
+}

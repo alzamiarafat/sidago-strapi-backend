@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_shared_footer_legal_blocks",
+  "info": {
+    "displayName": "Footer Legal Block",
+    "description": "Footer legal paragraph"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "text",
+      "required": true
+    },
+    "sortOrder": {
+      "type": "integer",
+      "default": 0
+    }
+  }
+}

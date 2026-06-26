@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_shared_statistic_items",
+  "info": {
+    "displayName": "Statistic Item",
+    "description": "Homepage statistics item"
+  },
+  "options": {},
+  "attributes": {
+    "stat": {
+      "type": "string",
+      "required": true
+    },
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "width": {
+      "type": "integer"
+    },
+    "activeDotColor": {
+      "type": "string",
+      "default": "#E7512F"
+    },
+    "sortOrder": {
+      "type": "integer",
+      "default": 0
+    }
+  }
+}

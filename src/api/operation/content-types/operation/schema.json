@@ -1,0 +1,41 @@
+{
+  "kind": "singleType",
+  "collectionName": "operations",
+  "info": {
+    "singularName": "operation",
+    "pluralName": "operations",
+    "displayName": "Operation",
+    "description": "Operations page CMS content"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.hero"
+    },
+    "insightNews": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.insight-news-item"
+    },
+    "statistics": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.statistic-item"
+    },
+    "capabilities": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.capability-item"
+    },
+    "cta": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.cta-item"
+    }
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "kind": "singleType",
+  "collectionName": "company_pages",
+  "info": {
+    "singularName": "company-page",
+    "pluralName": "company-pages",
+    "displayName": "Company Page",
+    "description": "Company page CMS content"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.hero"
+    },
+    "whatWeDoHeadingBefore": {
+      "type": "string"
+    },
+    "whatWeDoHeadingHighlight": {
+      "type": "string"
+    },
+    "whatWeDoHeadingAfter": {
+      "type": "string"
+    },
+    "whatWeDoHeadingId": {
+      "type": "string"
+    },
+    "whatWeDoIntro": {
+      "type": "text"
+    },
+    "businessLines": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.company-business-line-item"
+    },
+    "quoteSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.careers-quote"
+    },
+    "executiveTeamTitle": {
+      "type": "string"
+    },
+    "executiveTeamHeadingId": {
+      "type": "string"
+    },
+    "executiveTeamItems": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.company-executive-member"
+    },
+    "exploreCareersTitle": {
+      "type": "string"
+    },
+    "exploreCareersHeadingId": {
+      "type": "string"
+    },
+    "exploreCareersGallery": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.company-gallery-image"
+    },
+    "exploreCareersLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.company-careers-link"
+    },
+    "latestNewsHeading": {
+      "type": "string"
+    },
+    "latestNewsHeadingId": {
+      "type": "string"
+    },
+    "latestNewsHeadingClassName": {
+      "type": "string"
+    },
+    "latestNewsDividerClassName": {
+      "type": "string"
+    },
+    "latestNewsDesktopColumns": {
+      "type": "integer",
+      "default": 4
+    },
+    "latestNewsCards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.company-news-card"
+    },
+    "eventsPromoTitle": {
+      "type": "string"
+    },
+    "eventsPromoDescription": {
+      "type": "text"
+    },
+    "eventsPromoCtaHref": {
+      "type": "string"
+    },
+    "eventsPromoCtaLabel": {
+      "type": "string"
+    },
+    "eventsPromoCtaSrText": {
+      "type": "string"
+    },
+    "cta": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.cta-item"
+    }
+  }
+}

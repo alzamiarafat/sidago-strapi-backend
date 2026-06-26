@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_shared_cta_items",
+  "info": {
+    "displayName": "CTA Item",
+    "description": "Homepage CTA item"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "required": true
+    },
+    "href": {
+      "type": "string",
+      "required": true
+    },
+    "srLabel": {
+      "type": "string"
+    },
+    "backgroundColor": {
+      "type": "string",
+      "required": true
+    },
+    "sortOrder": {
+      "type": "integer",
+      "default": 0
+    }
+  }
+}

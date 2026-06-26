@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_shared_company_careers_links",
+  "info": {
+    "displayName": "Company Careers Link",
+    "description": "Careers promo link for the company page"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "required": true
+    },
+    "href": {
+      "type": "string",
+      "required": true
+    },
+    "srText": {
+      "type": "string"
+    },
+    "external": {
+      "type": "boolean",
+      "default": false
+    },
+    "sortOrder": {
+      "type": "integer",
+      "default": 0
+    }
+  }
+}

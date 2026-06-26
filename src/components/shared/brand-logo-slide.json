@@ -1,0 +1,25 @@
+{
+  "options": {},
+  "collectionName": "components_shared_brand_logo_slides",
+  "info": {
+    "displayName": "Brand Logo Slide",
+    "description": "Logo carousel slide"
+  },
+  "attributes": {
+    "slideId": {
+      "type": "string",
+      "required": true
+    },
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "caption": {
+      "type": "text"
+    },
+    "sortOrder": {
+      "type": "integer",
+      "default": 0
+    }
+  }
+}

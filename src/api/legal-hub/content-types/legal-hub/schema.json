@@ -1,0 +1,29 @@
+{
+  "kind": "singleType",
+  "collectionName": "legal_hubs",
+  "info": {
+    "singularName": "legal-hub",
+    "pluralName": "legal-hubs",
+    "displayName": "Legal Hub",
+    "description": "Legal hub page CMS content"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "hubTitle": {
+      "type": "string"
+    },
+    "hubDescription": {
+      "type": "text"
+    },
+    "lastUpdated": {
+      "type": "string"
+    },
+    "documents": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.legal-hub-document"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "options": {},
+  "collectionName": "components_shared_service_landing_toc_items",
+  "info": {
+    "displayName": "Service Landing TOC Item"
+  },
+  "attributes": {
+    "anchorId": {
+      "type": "string",
+      "required": true
+    },
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "srText": {
+      "type": "string"
+    },
+    "sortOrder": {
+      "type": "integer",
+      "default": 0
+    }
+  }
+}

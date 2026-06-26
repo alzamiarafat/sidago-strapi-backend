@@ -1,0 +1,32 @@
+{
+  "options": {},
+  "collectionName": "components_shared_events_stat_items",
+  "info": {
+    "displayName": "Events Stat Item",
+    "description": "Endpoint stats item"
+  },
+  "attributes": {
+    "externalId": {
+      "type": "string",
+      "required": true
+    },
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "value": {
+      "type": "string",
+      "required": true
+    },
+    "width": {
+      "type": "integer"
+    },
+    "activeDotColor": {
+      "type": "string"
+    },
+    "sortOrder": {
+      "type": "integer",
+      "default": 0
+    }
+  }
+}

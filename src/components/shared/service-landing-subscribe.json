@@ -1,0 +1,44 @@
+{
+  "options": {},
+  "collectionName": "components_shared_service_landing_subscribes",
+  "info": {
+    "displayName": "Service Landing Subscribe"
+  },
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "headingId": {
+      "type": "string"
+    },
+    "emailLabel": {
+      "type": "string"
+    },
+    "newslettersLabel": {
+      "type": "string"
+    },
+    "disclaimer": {
+      "type": "text"
+    },
+    "privacyPolicyHref": {
+      "type": "string"
+    },
+    "privacyPolicyLabel": {
+      "type": "string"
+    },
+    "disclaimerSuffix": {
+      "type": "string"
+    },
+    "submitLabel": {
+      "type": "string"
+    },
+    "submitSrText": {
+      "type": "string"
+    },
+    "newsletterOptions": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.service-landing-newsletter-option"
+    }
+  }
+}

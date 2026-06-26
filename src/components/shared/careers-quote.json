@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_shared_careers_quotes",
+  "info": {
+    "displayName": "Careers Quote",
+    "description": "Careers page quote block"
+  },
+  "options": {},
+  "attributes": {
+    "quote": {
+      "type": "text",
+      "required": true
+    },
+    "attribution": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

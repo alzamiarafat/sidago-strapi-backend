@@ -1,0 +1,146 @@
+{
+  "kind": "singleType",
+  "collectionName": "careers_pages",
+  "info": {
+    "singularName": "careers-page",
+    "pluralName": "careers-pages",
+    "displayName": "Careers Page",
+    "description": "Careers page CMS content"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.hero"
+    },
+    "heroCtaLabel": {
+      "type": "string"
+    },
+    "heroCtaHref": {
+      "type": "string"
+    },
+    "heroCtaSrText": {
+      "type": "string"
+    },
+    "heroCtaButtonClass": {
+      "type": "string"
+    },
+    "statistics": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.careers-statistic-item"
+    },
+    "quoteSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.careers-quote"
+    },
+    "valuesTitle": {
+      "type": "string"
+    },
+    "valuesHeadingId": {
+      "type": "string"
+    },
+    "valuesItems": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.careers-values-item"
+    },
+    "teamsLead": {
+      "type": "string"
+    },
+    "teamsHighlight": {
+      "type": "string"
+    },
+    "teamsHeadingId": {
+      "type": "string"
+    },
+    "teamsItems": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.careers-team-item"
+    },
+    "testimonialsTitle": {
+      "type": "string"
+    },
+    "testimonialsHeadingId": {
+      "type": "string"
+    },
+    "testimonialsClassName": {
+      "type": "string"
+    },
+    "testimonialsItems": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.careers-testimonial-item"
+    },
+    "lifeLead": {
+      "type": "string"
+    },
+    "lifeEyebrow": {
+      "type": "string"
+    },
+    "lifeHighlight": {
+      "type": "string"
+    },
+    "lifeHeadingId": {
+      "type": "string"
+    },
+    "lifeDescription": {
+      "type": "text"
+    },
+    "lifeStageLabel": {
+      "type": "string"
+    },
+    "lifeStageFootTitle": {
+      "type": "string"
+    },
+    "lifeStageFootDescription": {
+      "type": "text"
+    },
+    "lifeStageStats": {
+      "type": "json"
+    },
+    "lifeDecorImageSrc": {
+      "type": "string"
+    },
+    "lifeDecorImageAlt": {
+      "type": "string"
+    },
+    "lifeDecorImageWidth": {
+      "type": "integer"
+    },
+    "lifeDecorImageHeight": {
+      "type": "integer"
+    },
+    "lifeVideoSrc": {
+      "type": "string"
+    },
+    "lifeVideoPreload": {
+      "type": "string",
+      "default": "metadata"
+    },
+    "lifeStatsFontSizeMobile": {
+      "type": "integer",
+      "default": 36
+    },
+    "lifeStatsFontSizeDesktop": {
+      "type": "integer",
+      "default": 48
+    },
+    "lifeStatsItems": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.statistic-item"
+    },
+    "cta": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.cta-item"
+    }
+  }
+}

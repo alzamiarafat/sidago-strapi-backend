@@ -1,0 +1,27 @@
+{
+  "options": {},
+  "collectionName": "components_shared_service_landing_similar_insights",
+  "info": {
+    "displayName": "Service Landing Similar Insights"
+  },
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "headingId": {
+      "type": "string"
+    },
+    "desktopColumns": {
+      "type": "integer",
+      "default": 4
+    },
+    "sectionBgColor": {
+      "type": "string"
+    },
+    "cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.service-landing-insight-card"
+    }
+  }
+}

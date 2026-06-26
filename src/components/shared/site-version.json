@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_shared_site_versions",
+  "info": {
+    "displayName": "Site Version",
+    "description": "Frontend layout version selector"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "enumeration",
+      "enum": ["v1", "v2"],
+      "default": "v2",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "newsletter_subscriptions",
+  "info": {
+    "singularName": "newsletter-subscription",
+    "pluralName": "newsletter-subscriptions",
+    "displayName": "Newsletter Subscription",
+    "description": "Email newsletter sign-ups from the website"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "email": {
+      "type": "email",
+      "required": true,
+      "unique": true
+    },
+    "marketUpdates": {
+      "type": "boolean",
+      "default": false
+    },
+    "researchInsights": {
+      "type": "boolean",
+      "default": false
+    },
+    "sourcePage": {
+      "type": "string"
+    }
+  }
+}

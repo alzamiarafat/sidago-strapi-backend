@@ -1,0 +1,37 @@
+{
+  "kind": "singleType",
+  "collectionName": "modern_slavery_policies",
+  "info": {
+    "singularName": "modern-slavery-policy",
+    "pluralName": "modern-slavery-policies",
+    "displayName": "Modern Slavery Policy",
+    "description": "Modern slavery statement CMS content"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "lastUpdated": {
+      "type": "string"
+    },
+    "activePolicy": {
+      "type": "string",
+      "default": "modern-slavery"
+    },
+    "blocks": {
+      "type": "dynamiczone",
+      "components": [
+        "shared.legal-heading-h2",
+        "shared.legal-heading-h3",
+        "shared.legal-paragraph",
+        "shared.legal-bullet-list",
+        "shared.legal-link-paragraph",
+        "shared.legal-contact-box",
+        "shared.legal-divider"
+      ]
+    }
+  }
+}

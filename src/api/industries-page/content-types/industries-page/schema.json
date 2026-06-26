@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "industries_pages",
+  "info": {
+    "singularName": "industries-page",
+    "pluralName": "industries-pages",
+    "displayName": "Industries Page",
+    "description": "Industries list and detail content"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "menuGroups": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.service-group"
+    }
+  }
+}

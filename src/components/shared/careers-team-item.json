@@ -1,0 +1,42 @@
+{
+  "collectionName": "components_shared_careers_team_items",
+  "info": {
+    "displayName": "Careers Team Item",
+    "description": "Careers teams accordion item"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "hoverColor": {
+      "type": "string"
+    },
+    "imageSrc": {
+      "type": "string",
+      "required": true
+    },
+    "imageWidth": {
+      "type": "integer",
+      "default": 1152
+    },
+    "imageHeight": {
+      "type": "integer",
+      "default": 1182
+    },
+    "links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.careers-team-link"
+    },
+    "sortOrder": {
+      "type": "integer",
+      "default": 0
+    }
+  }
+}

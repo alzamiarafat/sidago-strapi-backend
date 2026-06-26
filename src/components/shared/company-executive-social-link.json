@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_shared_company_executive_social_links",
+  "info": {
+    "displayName": "Company Executive Social Link",
+    "description": "Social profile link for an executive team member"
+  },
+  "options": {},
+  "attributes": {
+    "type": {
+      "type": "enumeration",
+      "enum": ["x", "linkedin"],
+      "required": true
+    },
+    "href": {
+      "type": "string",
+      "required": true
+    },
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "sortOrder": {
+      "type": "integer",
+      "default": 0
+    }
+  }
+}

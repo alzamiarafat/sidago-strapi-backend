@@ -1,0 +1,50 @@
+{
+  "options": {},
+  "collectionName": "components_shared_service_landing_at_a_glances",
+  "info": {
+    "displayName": "Service Landing At A Glance"
+  },
+  "attributes": {
+    "authorName": {
+      "type": "string"
+    },
+    "authorImageSrc": {
+      "type": "string"
+    },
+    "authorImageAlt": {
+      "type": "string"
+    },
+    "authorImageClassName": {
+      "type": "string"
+    },
+    "authorImageWrapperClassName": {
+      "type": "string"
+    },
+    "authorImageUnoptimized": {
+      "type": "boolean",
+      "default": false
+    },
+    "heading": {
+      "type": "string"
+    },
+    "headingId": {
+      "type": "string"
+    },
+    "body": {
+      "type": "text"
+    },
+    "sectionClassName": {
+      "type": "string"
+    },
+    "tags": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.service-landing-tag"
+    },
+    "bullets": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.service-landing-bullet"
+    }
+  }
+}

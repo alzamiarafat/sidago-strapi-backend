@@ -1,0 +1,38 @@
+{
+  "kind": "singleType",
+  "collectionName": "executions",
+  "info": {
+    "singularName": "execution",
+    "pluralName": "executions",
+    "displayName": "Execution",
+    "description": "Execution page CMS content"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.hero"
+    },
+    "aboutSection": {
+      "type": "json"
+    },
+    "coreSection": {
+      "type": "json"
+    },
+    "workflowSection": {
+      "type": "json"
+    },
+    "resultsSection": {
+      "type": "json"
+    },
+    "cta": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.cta-item"
+    }
+  }
+}

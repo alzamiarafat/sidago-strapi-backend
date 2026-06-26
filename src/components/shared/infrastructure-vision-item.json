@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_shared_infrastructure_vision_items",
+  "info": {
+    "displayName": "Infrastructure Vision Item",
+    "description": "Infrastructure vision flip-card item"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "iconType": {
+      "type": "enumeration",
+      "enum": ["uptime", "security", "architecture", "visibility"],
+      "default": "uptime"
+    },
+    "sortOrder": {
+      "type": "integer",
+      "default": 0
+    }
+  }
+}

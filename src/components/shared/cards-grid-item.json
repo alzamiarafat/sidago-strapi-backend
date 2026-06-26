@@ -1,0 +1,55 @@
+{
+  "collectionName": "components_shared_cards_grid_items",
+  "info": {
+    "displayName": "Cards Grid Item",
+    "description": "Homepage cards grid item"
+  },
+  "options": {},
+  "attributes": {
+    "cardId": {
+      "type": "string",
+      "required": true
+    },
+    "href": {
+      "type": "string",
+      "required": true
+    },
+    "srLabel": {
+      "type": "string",
+      "required": true
+    },
+    "bgClass": {
+      "type": "string",
+      "required": true
+    },
+    "textClass": {
+      "type": "string",
+      "required": true
+    },
+    "colSpan": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "decorationType": {
+      "type": "enumeration",
+      "enum": ["none", "node", "events", "market"],
+      "default": "none"
+    },
+    "topType": {
+      "type": "enumeration",
+      "enum": ["none", "research"],
+      "default": "none"
+    },
+    "sortOrder": {
+      "type": "integer",
+      "default": 0
+    }
+  }
+}

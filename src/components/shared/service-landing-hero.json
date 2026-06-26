@@ -1,0 +1,44 @@
+{
+  "options": {},
+  "collectionName": "components_shared_service_landing_heroes",
+  "info": {
+    "displayName": "Service Landing Hero"
+  },
+  "attributes": {
+    "imageSrc": {
+      "type": "string"
+    },
+    "imageAlt": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "date": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string"
+    },
+    "className": {
+      "type": "string"
+    },
+    "metaTone": {
+      "type": "string"
+    },
+    "breadcrumbs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.service-landing-breadcrumb"
+    },
+    "descriptionParts": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.service-landing-inline-part"
+    }
+  }
+}

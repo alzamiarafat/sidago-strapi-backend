@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_shared_insight_news_items",
+  "info": {
+    "displayName": "Insight News Item",
+    "description": "Homepage insight news link item"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "href": {
+      "type": "string",
+      "required": true
+    },
+    "srText": {
+      "type": "string"
+    },
+    "sortOrder": {
+      "type": "integer",
+      "default": 0
+    }
+  }
+}

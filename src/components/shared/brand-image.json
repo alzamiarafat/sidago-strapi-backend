@@ -1,0 +1,21 @@
+{
+  "options": {},
+  "collectionName": "components_shared_brand_images",
+  "info": {
+    "displayName": "Brand Image",
+    "description": "Brand page image asset"
+  },
+  "attributes": {
+    "src": {
+      "type": "string",
+      "required": true
+    },
+    "alt": {
+      "type": "string"
+    },
+    "sortOrder": {
+      "type": "integer",
+      "default": 0
+    }
+  }
+}

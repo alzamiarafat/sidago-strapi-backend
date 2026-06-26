@@ -1,0 +1,51 @@
+{
+  "kind": "singleType",
+  "collectionName": "homepages",
+  "info": {
+    "singularName": "homepage",
+    "pluralName": "homepages",
+    "displayName": "Homepage",
+    "description": "Homepage CMS content"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.hero"
+    },
+    "insightNews": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.insight-news-item"
+    },
+    "statistics": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.statistic-item"
+    },
+    "marketTicker": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.market-ticker-item"
+    },
+    "capabilities": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.capability-item"
+    },
+    "cardsGrid": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.cards-grid-item"
+    },
+    "cta": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.cta-item"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "options": {},
+  "collectionName": "components_shared_legal_heading_h3s",
+  "info": {
+    "displayName": "Legal Heading H3",
+    "description": "Subsection heading"
+  },
+  "attributes": {
+    "text": {
+      "type": "string",
+      "required": true
+    },
+    "sortOrder": {
+      "type": "integer",
+      "default": 0
+    }
+  }
+}

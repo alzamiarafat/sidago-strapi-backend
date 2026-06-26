@@ -1,0 +1,44 @@
+{
+  "kind": "singleType",
+  "collectionName": "performances",
+  "info": {
+    "singularName": "performance",
+    "pluralName": "performances",
+    "displayName": "Performance",
+    "description": "Performance page CMS content"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.hero"
+    },
+    "stats": {
+      "type": "json"
+    },
+    "dashboardSection": {
+      "type": "json"
+    },
+    "tabsSection": {
+      "type": "json"
+    },
+    "imageCarouselSection": {
+      "type": "json"
+    },
+    "capabilitiesSection": {
+      "type": "json"
+    },
+    "methodSection": {
+      "type": "json"
+    },
+    "cta": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.cta-item"
+    }
+  }
+}

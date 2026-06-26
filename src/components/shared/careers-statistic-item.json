@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_shared_careers_statistic_items",
+  "info": {
+    "displayName": "Careers Statistic Item",
+    "description": "Careers page statistic with multi-line label"
+  },
+  "options": {},
+  "attributes": {
+    "stat": {
+      "type": "string",
+      "required": true
+    },
+    "labelLines": {
+      "type": "json",
+      "required": true
+    },
+    "width": {
+      "type": "integer"
+    },
+    "activeDotColor": {
+      "type": "string",
+      "default": "#E7512F"
+    },
+    "sortOrder": {
+      "type": "integer",
+      "default": 0
+    }
+  }
+}
