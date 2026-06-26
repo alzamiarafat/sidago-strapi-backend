@@ -65,6 +65,10 @@ Push seed data into Strapi:
 npm run seed:push
 ```
 
+`seed:push` uses `scripts/seed-data.json` if seed source modules cannot be
+loaded (e.g. on a minimal production checkout). Run `npm run seed` locally to
+regenerate that file before deploying.
+
 Set `STRAPI_SEED_TOKEN` in `.env` for production pushes. Local pushes can use
 the public `/api/seed` endpoint or direct DB upserts without a token.
 

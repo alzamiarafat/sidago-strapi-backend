@@ -610,10 +610,23 @@ async function pushViaLocalStrapi(payload) {
   );
 }
 
+async function loadBasePayload() {
+  try {
+    const fromDefaults = await loadPayloadFromSeedDefaults();
+    if (fromDefaults) {
+      return fromDefaults;
+    }
+  } catch (error) {
+    process.stdout.write(
+      `Warning: could not load seed defaults (${error.message}); falling back to scripts/seed-data.json.\n`,
+    );
+  }
+
+  return loadPayloadFromSeedFile();
+}
+
 async function main() {
-  const basePayload =
-    (await loadPayloadFromSeedDefaults()) ??
-    (await loadPayloadFromSeedFile());
+  const basePayload = await loadBasePayload();
   const servicesPayload = enrichServicesPage(
     basePayload,
     await loadDetailMap("services"),
