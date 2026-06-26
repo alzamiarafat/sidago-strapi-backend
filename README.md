@@ -30,10 +30,20 @@ Admin panel: `http://localhost:9012/admin`
 
 ## Docker
 
-Run Postgres + Strapi:
+Build and run with a fixed image name and tag:
 
 ```bash
-docker compose up --build
+# default tag: 1  →  sidago-strapi-backend:1
+npm run docker:up
+
+# custom tag
+IMAGE_TAG=2 docker compose up --build -d
+```
+
+Postgres only (local `npm run develop`):
+
+```bash
+docker compose up -d sidago-postgres
 ```
 
 Published ports:

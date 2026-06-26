@@ -8,7 +8,9 @@
     "start": "strapi start",
     "build": "strapi build",
     "seed": "node ./scripts/seed.mjs",
-    "seed:push": "node ./scripts/seed.mjs --push"
+    "seed:push": "node ./scripts/seed.mjs --push",
+    "docker:build": "docker compose build",
+    "docker:up": "docker compose up -d --build"
   },
   "dependencies": {
     "@strapi/plugin-users-permissions": "^5.0.0",
