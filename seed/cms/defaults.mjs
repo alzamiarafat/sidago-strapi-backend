@@ -102,7 +102,7 @@ export const defaultGlobalSettings = {
         sortOrder: 3,
       },
     ],
-    contactAlign: "center",
+    contactAlign: "start",
     copyrightAlign: "center",
     policyLinksAlign: "end",
   },

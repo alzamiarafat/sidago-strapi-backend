@@ -402,7 +402,7 @@ export interface SharedFooter extends Struct.ComponentSchema {
   };
   attributes: {
     contactAlign: Schema.Attribute.Enumeration<['start', 'center', 'end']> &
-      Schema.Attribute.DefaultTo<'center'>;
+      Schema.Attribute.DefaultTo<'start'>;
     copyrightAlign: Schema.Attribute.Enumeration<['start', 'center', 'end']> &
       Schema.Attribute.DefaultTo<'center'>;
     legalBlocks: Schema.Attribute.Component<'shared.footer-legal-block', true>;

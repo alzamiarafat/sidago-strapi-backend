@@ -29,7 +29,7 @@
     "contactAlign": {
       "type": "enumeration",
       "enum": ["start", "center", "end"],
-      "default": "center"
+      "default": "start"
     },
     "copyrightAlign": {
       "type": "enumeration",
