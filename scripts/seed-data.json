@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T23:21:11.196Z",
+  "generatedAt": "2026-07-02T07:08:57.361Z",
   "global": {
     "siteName": "Sidago",
     "siteContactEmail": "hello@sidago.com",
@@ -7381,17 +7381,20 @@
             {
               "title": "Operating with",
               "color": "",
-              "className": ""
+              "className": "",
+              "line": 1
             },
             {
               "title": "support & compliance",
               "color": "#E7512F",
-              "className": ""
+              "className": "",
+              "line": 2
             },
             {
               "title": "at enterprise scale",
               "color": "",
-              "className": ""
+              "className": "",
+              "line": 3
             }
           ],
           "subtitle": "Structured assistance, documentation, and controls so your organization can serve customers, satisfy oversight, and keep delivery moving.",

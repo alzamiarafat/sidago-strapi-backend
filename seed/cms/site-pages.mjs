@@ -54,9 +54,9 @@ const supportComplianceHero = {
   videoSrc:
     "https://wp-corp-site.s3.eu-central-1.amazonaws.com/wp-content/uploads/2025/05/23163720/Accordion-Forwards.mp4#t=2",
   titles: [
-    { title: "Operating with", color: "", className: "" },
-    { title: "support & compliance", color: "#E7512F", className: "" },
-    { title: "at enterprise scale", color: "", className: "" },
+    { title: "Operating with", color: "", className: "", line: 1 },
+    { title: "support & compliance", color: "#E7512F", className: "", line: 2 },
+    { title: "at enterprise scale", color: "", className: "", line: 3 },
   ],
   subtitle:
     "Structured assistance, documentation, and controls so your organization can serve customers, satisfy oversight, and keep delivery moving.",
