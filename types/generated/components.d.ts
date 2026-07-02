@@ -401,9 +401,15 @@ export interface SharedFooter extends Struct.ComponentSchema {
     displayName: 'Footer';
   };
   attributes: {
+    contactAlign: Schema.Attribute.Enumeration<['start', 'center', 'end']> &
+      Schema.Attribute.DefaultTo<'center'>;
+    copyrightAlign: Schema.Attribute.Enumeration<['start', 'center', 'end']> &
+      Schema.Attribute.DefaultTo<'center'>;
     legalBlocks: Schema.Attribute.Component<'shared.footer-legal-block', true>;
     navLinks: Schema.Attribute.Component<'shared.footer-link', true>;
     policyLinks: Schema.Attribute.Component<'shared.footer-link', true>;
+    policyLinksAlign: Schema.Attribute.Enumeration<['start', 'center', 'end']> &
+      Schema.Attribute.DefaultTo<'end'>;
     socialLinks: Schema.Attribute.Component<'shared.footer-social-link', true>;
   };
 }

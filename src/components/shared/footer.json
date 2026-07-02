@@ -25,6 +25,21 @@
       "type": "component",
       "repeatable": true,
       "component": "shared.footer-link"
+    },
+    "contactAlign": {
+      "type": "enumeration",
+      "enum": ["start", "center", "end"],
+      "default": "center"
+    },
+    "copyrightAlign": {
+      "type": "enumeration",
+      "enum": ["start", "center", "end"],
+      "default": "center"
+    },
+    "policyLinksAlign": {
+      "type": "enumeration",
+      "enum": ["start", "center", "end"],
+      "default": "end"
     }
   }
 }
