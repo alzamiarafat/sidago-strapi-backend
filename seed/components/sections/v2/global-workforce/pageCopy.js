@@ -32,7 +32,7 @@ export const similarInsightsContent = {
       category: "Market Update",
       title: "Market Update: 18 May 2026",
       description:
-        "Analysis of recent crypto market developments from Wintermute OTC Desk",
+        "Analysis of recent crypto market developments from Sidago OTC Desk",
       date: "18 May 2026",
     },
     {
@@ -44,7 +44,7 @@ export const similarInsightsContent = {
       category: "Market Update",
       title: "Market Update: 11 May 2026",
       description:
-        "Analysis of recent crypto market developments from Wintermute OTC Desk",
+        "Analysis of recent crypto market developments from Sidago OTC Desk",
       date: "11 May 2026",
     },
     {
@@ -58,7 +58,7 @@ export const similarInsightsContent = {
       title:
         "Digital assets in 2026: The clearing layer for the internet economy",
       description:
-        "Wintermute Ventures delves into where they believe digital assets will be heading in 2026, and where they will be actively backing founders.",
+        "Sidago Ventures delves into where they believe digital assets will be heading in 2026, and where they will be actively backing founders.",
       date: "28 Jan 2026",
     },
     {
@@ -70,7 +70,7 @@ export const similarInsightsContent = {
       category: "Reports",
       title: "Digital asset OTC market 2025",
       description:
-        "Wintermute’s 2025 digital asset OTC market review analyzes crypto liquidity flows, institutional trading behavior and derivatives growth to explain how traditional cycle dynamics are changing.",
+        "Sidago’s 2025 digital asset OTC market review analyzes crypto liquidity flows, institutional trading behavior and derivatives growth to explain how traditional cycle dynamics are changing.",
       date: "13 Jan 2026",
     },
   ],

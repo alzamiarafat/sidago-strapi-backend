@@ -1208,6 +1208,7 @@ export interface ApiOperationOperation extends Struct.SingleTypeSchema {
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
     cta: Schema.Attribute.Component<'shared.cta-item', true>;
+    globalReachCta: Schema.Attribute.Component<'shared.footer-link', false>;
     hero: Schema.Attribute.Component<'shared.hero', false>;
     insightNews: Schema.Attribute.Component<'shared.insight-news-item', true>;
     locale: Schema.Attribute.String & Schema.Attribute.Private;

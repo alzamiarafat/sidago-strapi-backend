@@ -28,7 +28,7 @@ export const reportInsightHero = {
   ],
   title: "Market Update: 18 May 2026",
   description:
-    "Analysis of recent crypto market developments from Wintermute OTC Desk",
+    "Analysis of recent crypto market developments from Sidago OTC Desk",
   date: "18 May 2026",
   category: "Market Update",
   className: "bg-gray-tradfi-steel",

@@ -963,6 +963,12 @@ export const defaultOperationsPage = {
       sortOrder: 2,
     },
   ],
+  globalReachCta: {
+    label: "Explore Coverage",
+    href: "/global-workforce-solutions",
+    srLabel: "Explore Sidago global workforce coverage",
+    sortOrder: 1,
+  },
 };
 
 export const defaultInfrastructurePage = {

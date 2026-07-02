@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-02T07:08:57.361Z",
+  "generatedAt": "2026-07-02T17:10:58.520Z",
   "global": {
     "siteName": "Sidago",
     "siteContactEmail": "hello@sidago.com",
@@ -108,7 +108,7 @@
           "sortOrder": 3
         }
       ],
-      "contactAlign": "center",
+      "contactAlign": "start",
       "copyrightAlign": "center",
       "policyLinksAlign": "end"
     }
@@ -1002,7 +1002,13 @@
         "backgroundColor": "#FF8C69",
         "sortOrder": 2
       }
-    ]
+    ],
+    "globalReachCta": {
+      "label": "Explore Coverage",
+      "href": "/global-workforce-solutions",
+      "srLabel": "Explore Sidago global workforce coverage",
+      "sortOrder": 1
+    }
   },
   "infrastructure": {
     "hero": {
@@ -5945,7 +5951,7 @@
         "imageSrc": "/images/Market-Update-1.svg",
         "imageAlt": "Market Update: 18 May 2026",
         "title": "Market Update: 18 May 2026",
-        "description": "Analysis of recent crypto market developments from Wintermute OTC Desk",
+        "description": "Analysis of recent crypto market developments from Sidago OTC Desk",
         "date": "18 May 2026",
         "category": "Market Update",
         "className": "bg-gray-tradfi-steel",
@@ -6453,28 +6459,28 @@
         "ctaSectionSrText": "",
         "disclaimers": [
           {
-            "text": ": The information provided by Wintermute here solely for informational purposes and is intended only for professional counterparties, sophisticated, institutional investors and is not intended for retail use. The information does not constitute an offer or commitment, a solicitation of an offer, or commitment, or any advice or recommendation, to enter into or conclude any transactions, or to provide investment services in any state or country where such an offer or solicitation or provision would be illegal.",
+            "text": ": The information provided by Sidago here solely for informational purposes and is intended only for professional counterparties, sophisticated, institutional investors and is not intended for retail use. The information does not constitute an offer or commitment, a solicitation of an offer, or commitment, or any advice or recommendation, to enter into or conclude any transactions, or to provide investment services in any state or country where such an offer or solicitation or provision would be illegal.",
             "href": "",
             "linkLabel": "",
             "textAfter": "",
             "sortOrder": 1
           },
           {
-            "text": "References to Wintermute include Wintermute Trading Ltd and its affiliates, including Wintermute Asia Pte Ltd. Spot trading is offered by Wintermute Trading (UK) and derivatives trading is offered by Wintermute Asia (Singapore).",
+            "text": "References to Sidago include Sidago Trading Ltd and its affiliates, including Sidago Asia Pte Ltd. Spot trading is offered by Sidago Trading (UK) and derivatives trading is offered by Sidago Asia (Singapore).",
             "href": "",
             "linkLabel": "",
             "textAfter": "",
             "sortOrder": 2
           },
           {
-            "text": "These posts are not intended for users based in Singapore. Derivatives trading with Wintermute Asia is not suitable for retail persons in the United Kingdom. Trading and investing in digital assets and derivative transactions involve significant risks including price volatility and illiquidity and may not be suitable for all investors. The value of cryptocurrencies and any related financial instruments can fluctuate significantly, and past performance is not indicative of future results. You should carefully consider your investment experience, financial situation, objectives, and risk tolerance before trading in cryptocurrencies or any other financial instrument. Wintermute is not liable whatsoever for any direct or consequential loss or damage arising from the reliance or use of the information provided on here.",
+            "text": "These posts are not intended for users based in Singapore. Derivatives trading with Sidago Asia is not suitable for retail persons in the United Kingdom. Trading and investing in digital assets and derivative transactions involve significant risks including price volatility and illiquidity and may not be suitable for all investors. The value of cryptocurrencies and any related financial instruments can fluctuate significantly, and past performance is not indicative of future results. You should carefully consider your investment experience, financial situation, objectives, and risk tolerance before trading in cryptocurrencies or any other financial instrument. Sidago is not liable whatsoever for any direct or consequential loss or damage arising from the reliance or use of the information provided on here.",
             "href": "",
             "linkLabel": "",
             "textAfter": "",
             "sortOrder": 3
           },
           {
-            "text": "Wintermute does not give any representations or warranties in relation to the accuracy, validity or complicity of the information of this material, including without limitation the factual information obtained from publicly available sources considered by Wintermute to be reliable; and does not accept any liability for any consequences of using the information contained in this material, and for the applicability of this material for the specific purposes and objectives of this material recipients. Any opinions or estimates expressed herein reflect a judgement made by the author(s) as of the date of publication and are subject to change without notice. Neither this material nor any copy thereof may be taken, reproduced, or redistributed, directly or indirectly, without prior written permission of Wintermute.",
+            "text": "Sidago does not give any representations or warranties in relation to the accuracy, validity or complicity of the information of this material, including without limitation the factual information obtained from publicly available sources considered by Sidago to be reliable; and does not accept any liability for any consequences of using the information contained in this material, and for the applicability of this material for the specific purposes and objectives of this material recipients. Any opinions or estimates expressed herein reflect a judgement made by the author(s) as of the date of publication and are subject to change without notice. Neither this material nor any copy thereof may be taken, reproduced, or redistributed, directly or indirectly, without prior written permission of Sidago.",
             "href": "",
             "linkLabel": "",
             "textAfter": "",
@@ -6520,7 +6526,7 @@
             "imageAlt": "Market Update: 18 May 2026",
             "category": "Market Update",
             "title": "Market Update: 18 May 2026",
-            "description": "Analysis of recent crypto market developments from Wintermute OTC Desk",
+            "description": "Analysis of recent crypto market developments from Sidago OTC Desk",
             "date": "18 May 2026",
             "sortOrder": 1
           },
@@ -6531,7 +6537,7 @@
             "imageAlt": "Market Update: 11 May 2026",
             "category": "Market Update",
             "title": "Market Update: 11 May 2026",
-            "description": "Analysis of recent crypto market developments from Wintermute OTC Desk",
+            "description": "Analysis of recent crypto market developments from Sidago OTC Desk",
             "date": "11 May 2026",
             "sortOrder": 2
           },
@@ -6542,7 +6548,7 @@
             "imageAlt": "Digital assets in 2026: The clearing layer for the internet economy",
             "category": "Opinions",
             "title": "Digital assets in 2026: The clearing layer for the internet economy",
-            "description": "Wintermute Ventures delves into where they believe digital assets will be heading in 2026, and where they will be actively backing founders.",
+            "description": "Sidago Ventures delves into where they believe digital assets will be heading in 2026, and where they will be actively backing founders.",
             "date": "28 Jan 2026",
             "sortOrder": 3
           },
@@ -6553,7 +6559,7 @@
             "imageAlt": "Digital asset OTC market 2025",
             "category": "Reports",
             "title": "Digital asset OTC market 2025",
-            "description": "Wintermute’s 2025 digital asset OTC market review analyzes crypto liquidity flows, institutional trading behavior and derivatives growth to explain how traditional cycle dynamics are changing.",
+            "description": "Sidago’s 2025 digital asset OTC market review analyzes crypto liquidity flows, institutional trading behavior and derivatives growth to explain how traditional cycle dynamics are changing.",
             "date": "13 Jan 2026",
             "sortOrder": 4
           }
