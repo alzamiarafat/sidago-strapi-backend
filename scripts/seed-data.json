@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-03T13:31:49.944Z",
+  "generatedAt": "2026-07-03T19:23:45.038Z",
   "global": {
     "siteName": "Sidago",
     "siteContactEmail": "hello@sidago.com",
@@ -6833,7 +6833,7 @@
         "heading": "Explore similar Insights",
         "headingId": "explore-similar-insights",
         "desktopColumns": 4,
-        "sectionBgColor": "#070B09",
+        "sectionBgColor": "#151916",
         "cards": [
           {
             "href": "/scalable-operations-management",

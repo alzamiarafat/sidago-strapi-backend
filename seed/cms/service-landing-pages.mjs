@@ -324,7 +324,7 @@ export const defaultScalableOperationsLandingPage = {
   reportContents: null,
   pressRelease: scalablePressRelease,
   subscribe: scalableSubscribe,
-  similarInsights: { ...scalableSimilarInsights, sectionBgColor: "#070B09" },
+  similarInsights: { ...scalableSimilarInsights, sectionBgColor: "#151916" },
   includePerformanceCarousel: true,
 };
 
