@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-02T17:10:58.520Z",
+  "generatedAt": "2026-07-03T13:31:49.944Z",
   "global": {
     "siteName": "Sidago",
     "siteContactEmail": "hello@sidago.com",
@@ -1149,7 +1149,7 @@
         "title": "Operations Control Dashboard",
         "description": "Track workflow health, delivery coverage, issue queues, and execution trends through a clear operational view built for day-to-day management.",
         "cta": "Explore dashboard",
-        "href": "/contact",
+        "href": "/performance",
         "visualType": "dashboard",
         "srText": "Sidago infrastructure - Operations Control Dashboard",
         "sortOrder": 1
@@ -1159,7 +1159,7 @@
         "title": "Weekly Operations Brief",
         "description": "Receive structured updates on performance trends, delivery priorities, support risks, and system changes that affect business continuity.",
         "cta": "View brief",
-        "href": "/contact",
+        "href": "/operations",
         "visualType": "brief",
         "srText": "Sidago infrastructure - Weekly Operations Brief",
         "sortOrder": 2

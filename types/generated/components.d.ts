@@ -1109,6 +1109,20 @@ export interface SharedStatisticItem extends Struct.ComponentSchema {
   };
 }
 
+export interface SharedWhoWeServeBlock extends Struct.ComponentSchema {
+  collectionName: 'components_shared_who_we_serve_blocks';
+  info: {
+    description: 'Homepage who we serve promo section';
+    displayName: 'Who We Serve Block';
+  };
+  attributes: {
+    ctaLabel: Schema.Attribute.String & Schema.Attribute.Required;
+    description: Schema.Attribute.Text & Schema.Attribute.Required;
+    href: Schema.Attribute.String & Schema.Attribute.Required;
+    title: Schema.Attribute.String & Schema.Attribute.Required;
+  };
+}
+
 declare module '@strapi/strapi' {
   export module Public {
     export interface ComponentSchemas {
@@ -1179,6 +1193,7 @@ declare module '@strapi/strapi' {
       'shared.site-version': SharedSiteVersion;
       'shared.social-link': SharedSocialLink;
       'shared.statistic-item': SharedStatisticItem;
+      'shared.who-we-serve-block': SharedWhoWeServeBlock;
     }
   }
 }

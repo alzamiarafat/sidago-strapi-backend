@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_shared_who_we_serve_blocks",
+  "info": {
+    "displayName": "Who We Serve Block",
+    "description": "Homepage who we serve promo section"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "ctaLabel": {
+      "type": "string",
+      "required": true
+    },
+    "href": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
